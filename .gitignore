@@ -1,0 +1,42 @@
+# MERL data and generated derivatives
+Videos_MERL_Shopping_Dataset/
+Labels MERL/
+Labels_MERL_Shopping_Dataset/
+Results_MERL_Shopping_Dataset/
+Raw Dataset/
+evaluation/
+model_data/
+pose_tests/
+outputs/
+frames/*.jpg
+frames/*.jpeg
+frames/*.png
+
+# Run records and caches
+**/logs/
+**/*.log
+**/*.pkl.gz
+**/*.inspect.ndjson
+**/batch_manifest.json
+**/video_runs.csv
+
+# Serialized models and downloaded weights
+*.joblib
+*.pkl
+*.pickle
+yolov8*.pt
+
+# Local environments and caches
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
