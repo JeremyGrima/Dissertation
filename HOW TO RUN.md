@@ -1,6 +1,6 @@
 # Hybrid V2 reproduction workflow
 
-Run all commands from the repository root. Download the MERL data and pose weights first, as described in `README.md` and `DATASET.md`.
+Run all commands from the repository root. Download the MERL data and pose weights first, as described in `README.md`.
 
 ## 1. Convert the MERL labels
 
