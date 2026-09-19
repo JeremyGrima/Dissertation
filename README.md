@@ -2,7 +2,7 @@
 
 This repository contains the source code and configuration for the Hybrid V2 system developed as part of my dissertation.
 
-The system analyses overhead supermarket video to recognise five shelf-side behaviours from the MERL Shopping Dataset. It also detects possible product interactions, estimates product origin zones, and provides an approximate attention measure.
+The dissertation investigates how pose, wrist movement, shelf context, and product-related evidence can be integrated to recognise customer behaviour and model product interactions from fixed overhead video. 
 
 ## Repository Contents
 
