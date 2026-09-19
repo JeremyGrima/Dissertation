@@ -15,21 +15,21 @@ See `HOW TO RUN.md` for the commands used to train and evaluate Hybrid V2.
 ## Repository Structure
 
 ```text
-.
+
 |-- *.py                              Pipeline, training and evaluation scripts
 |-- annotations/
 |   |-- README.md                     Annotation information
 |   |-- manual_event_annotations.csv  Cleaned product annotations
 |   `-- manual_event_annotations.template.csv
 |-- frames/
-|   `-- zones.json                    Shelf and product-zone definitions
+|     -- zones.json                    Shelf and product-zone definitions
 |-- models/hybrid_v2/
 |   |-- README.md
 |   |-- hybrid_v2_validation_tuning.csv
-|   `-- product_origin_calibration.json
+|     -- product_origin_calibration.json
 |-- HOW TO RUN.md
 |-- requirements.txt
-`-- run_configuration.json
+ -- run_configuration.json
 ```
 
 ## Setup
@@ -49,9 +49,9 @@ The final command downloads the YOLOv8s pose model required by the pipeline. The
 
 Hybrid V2 was evaluated on the 28-video MERL test split.
 
-The system achieved a mean F1 score of 0.609 and mAP of 0.521 across the five MERL behaviour classes. The definition-aligned mean F1 for product interactions was 0.257.
+The system achieved a mean F1 score of 0.61 and mAP of 0.52 across the five MERL behaviour classes. The definition-aligned mean F1 for product interactions was 0.26.
 
-Product-origin accuracy was 0.234 and returned-status accuracy was 0.460. The attention proxy covered 36.6% of eligible frames and achieved 56.6% agreement when available. The attention results represent agreement with expected inspection targets rather than direct gaze accuracy.
+Product-origin accuracy was 0.23 and returned-status accuracy was 0.46. The attention proxy covered 36.6% of eligible frames and achieved 56.6% agreement when available. The attention results represent agreement with expected inspection targets rather than direct gaze accuracy.
 
 Full evaluation settings and results are provided in `run_configuration.json`.
 
